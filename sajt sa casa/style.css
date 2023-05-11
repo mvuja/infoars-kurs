@@ -1,0 +1,386 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Ubuntu', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* end css reset */
+
+/* start naslovna */
+
+.naslovna {
+	width: 400px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 35px;
+	margin: 15px 0px;
+}
+
+.naslovna h1 {
+	color: gray;
+}
+
+.naslovna a {
+	background-color: orange;
+	color: #fff;
+	padding: 15px 0px;
+	display: block;
+	width: 80px;
+	margin: 0px auto;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.naslovna a:hover {
+	background-color: yellow;
+	color: #333;
+}
+
+/* end naslovna */
+
+/* start header */
+
+.container {
+	width: 960px;
+	margin: 0px auto;
+}
+
+.header {
+	background-color: #a82008;
+	padding: 20px;
+}
+
+.logo {
+	float: left;
+	width: 30%;
+}
+
+.nav {
+	float: right;
+	width: 65%;
+	margin-top: 5px;
+}
+
+.clear::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.meni li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.meni li a {
+	color: #fff;
+	border: 1px solid #fff;
+	display: block;
+	padding: 7px;
+	text-transform: uppercase;
+}
+
+.meni li a:hover {
+	background-color: white;
+	color: #a82008;
+}
+
+.meni li.active a {
+	background-color: #fff;
+	color: #a82008;
+}
+
+/* end header */
+
+/* start o nama */
+
+.covjek {
+	background-image: url(images/bg_page.jpg);
+	text-align: right;
+}
+
+p {
+	 line-height: 1.5;
+	 margin-bottom: 10px;
+ }
+ 
+ .tekst p {
+	 text-align: justify;
+ }
+ 
+/* end o nama */
+ 
+/* start footer */
+ 
+ .footer {
+	 background-color: #a82008;
+	 color: #fff;
+	 padding: 30px;
+	 text-align: center;
+ }
+ 
+ .footer p {
+	 margin-bottom: 0px;
+ }
+
+/* end footer */
+
+/* start portfolio */
+
+.letak img {
+	float: left;
+	margin-right: 20px;
+}
+
+.letak h2 {
+	font-size: 25px;
+	margin: 15px 0;
+}
+
+.letak p {
+	text-align: justify;
+}
+
+.letak a {
+	float: right;
+	display: block;
+	border: 1px solid;
+	width: 100px;
+	text-align: center;
+	padding: 10px 0px;
+	color: #333;
+	margin-bottom: 15px;
+}
+
+.letak a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+.letak {
+	border-bottom: 1px solid #333;
+	margin: 20px 0;
+}
+
+.noborder {
+	border-bottom: none;
+}
+
+.social {
+	float: left;
+	width: 30%;
+}
+
+.footer .nav {
+	margin-top: 10px;
+}
+
+/* end portfolio */
+
+/* start cjenovnik */
+
+table {
+	width: 100%;
+	margin: 40px 0;
+	text-align: center;
+}
+
+thead th {
+	background-color: #a82008;
+	color: #fff;
+	padding: 20px 0;
+	border: 1px solid #a82008;
+}
+
+tbody th {
+	color: #a82008;
+	padding: 15px 0;
+	border: 1px solid #a82008;
+}
+
+tbody td {
+	padding: 15px 0;
+	border: 1px solid #a82008;
+}
+
+h2 {
+	margin: 15px 0;
+	font-size: 25px;
+}
+
+.box {
+	width: 25%;
+	display: inline-block;
+	margin-right: 11.7%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border: 1px solid #a82008;
+}
+
+.box h2 {
+	background-color: #a82008;
+	color: #fff;
+	margin: 0px;
+	font-size: 20px;
+	line-height: 1.5;
+	padding: 15px 0;
+	text-align: center;
+}
+
+.nomargin {
+	margin-right: 0;
+}
+
+.box h2 span {
+	font-weight: bold;
+}
+
+.box ul {
+	line-height: 3;
+	padding-left: 5px;
+}
+
+.box a {
+	display: block;
+	width: 90%;
+	background-color: #a82008;
+	padding: 15px 0;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.box a:hover {
+	background-color: #333;
+}
+
+/* end cjenovnik */
+
+/* start kontakt */
+
+.kontakt {
+	background-color: red;
+	padding: 100px 0;
+}
+
+.kontakt h1 {
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+
+form {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.left {
+	display: inline-block;
+	width: 48%;
+	margin-right: 15px;
+}
+
+.right {
+	display: inline-block;
+	width: 48%;
+}
+
+.left input {
+	width: 100%;
+	margin-bottom: 15px;
+	height: 30px;
+	border: 1px solid white;
+	background-color: transparent;
+	border-radius: 4px;
+	color: white;
+}
+
+input::placeholder,
+textarea::placeholder {
+	color: white;
+	padding-left: 10px;
+}
+
+.right textarea {
+	width: 100%;
+	margin-bottom: 15px;
+	height: 77px;
+	border: 1px solid white;
+	background-color: transparent;
+	border-radius: 4px;
+}
+
+.right input {
+	padding: 6px 8px;
+	color: white;
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 4px;
+}
+
+input:focus {
+	outline: none;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+/* end kontakt */
+
+
+
+
+
+
